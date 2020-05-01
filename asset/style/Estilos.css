@@ -1,0 +1,253 @@
+.barnav-container {
+  margin: 0px;
+  width: 100%;
+  padding: 15px 200px;
+  margin: 40px auto 220px; }
+
+.menu {
+  height: 30px;
+  background-color: #ffffff; }
+
+.menu ul {
+  list-style: none;
+  margin: 5px;
+  padding: 0px;
+  background-color: blues; }
+
+.menu ul li {
+  display: inline-block;
+  width: 140px;
+  margin: auto 25px; }
+
+.menu ul li a {
+  color: #000000;
+  display: block;
+  width: 150px;
+  margin: 5px;
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold; }
+
+.navegacion li :hover {
+  color: #65a428;
+  text-decoration: underline;
+  transition: all 0.5s; }
+
+.foot {
+  display: flex;
+  width: 100%;
+  background-color: #004169;
+  font-family: 'Raleway', sans-serif;
+  color: #ffffff;
+  font-weight: bold;
+  height: 3.5em;
+  padding: 15px;
+  bottom: 0px; }
+
+.head {
+  display: flex;
+  width: 100%;
+  height: 80px;
+  justify-content: space-around;
+  padding: 2.5em; }
+
+.clima {
+  display: flex;
+  width: 50%;
+  background-color: #ffffff;
+  height: 5.5em; }
+
+.logo {
+  display: flex;
+  width: 50%;
+  background-color: #ffffff;
+  background-image: url("../imges/logo.svg");
+  background-repeat: no-repeat;
+  height: 5.5em; }
+
+.section-conatiner-padre {
+  width: 100%;
+  height: 660px;
+  display: flex; }
+
+.colImg {
+  width: 38%;
+  background-image: url("../imges/01.png");
+  background-repeat: no-repeat;
+  height: 60%;
+  margin: 7em 0 0 -3em;
+  -webkit-box-shadow: 10px 10px 15px -7px rgba(77, 77, 77, 0.47);
+  -moz-box-shadow: 10px 10px 15px -7px rgba(77, 77, 77, 0.47);
+  box-shadow: 10px 10px 15px -7px rgba(77, 77, 77, 0.47);
+  position: absolute;
+  left: 6em;
+  top: 9.5em;
+  z-index: 3; }
+
+.colTexto {
+  width: 72%;
+  height: 74%;
+  background-color: #004169;
+  position: absolute;
+  left: 28%;
+  top: 24%;
+  z-index: 2; }
+
+.containerTexto {
+  width: 50%;
+  margin: auto;
+  margin: 12% 0 0 25%; }
+
+.tituloHome {
+  font-size: 2.5em;
+  font-family: 'Raleway', sans-serif;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 1em; }
+
+.texto {
+  font-size: 1.3em;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.4em;
+  color: #ffffff; }
+
+.logos {
+  display: flex;
+  width: 55%;
+  margin: 2em auto; }
+
+.logosCol {
+  width: 20%;
+  margin: auto; }
+
+.section-conatiner-Meteo {
+  width: 100%;
+  height: 660px;
+  display: flex; }
+
+.colImg-Meteo {
+  width: 30%;
+  background-image: url("../imges/meteo.jpg");
+  background-repeat: no-repeat;
+  height: 83%;
+  margin: 0 0 0 3em;
+  -webkit-box-shadow: 10px 10px 15px -7px rgba(77, 77, 77, 0.47);
+  -moz-box-shadow: 10px 10px 15px -7px rgba(77, 77, 77, 0.47);
+  box-shadow: 10px 10px 15px -7px rgba(77, 77, 77, 0.47);
+  border-radius: 3%; }
+
+.colImg-Energia {
+  width: 30%;
+  background-image: url("../imges/energias.jpg");
+  background-repeat: no-repeat;
+  height: 83%;
+  margin: 0 0 0 3em;
+  -webkit-box-shadow: 10px 10px 15px -7px rgba(77, 77, 77, 0.47);
+  -moz-box-shadow: 10px 10px 15px -7px rgba(77, 77, 77, 0.47);
+  box-shadow: 10px 10px 15px -7px rgba(77, 77, 77, 0.47);
+  border-radius: 3%; }
+
+.colTexto-Meteo {
+  width: 45%;
+  height: 74%;
+  margin-left: 4%; }
+
+.tituloHome-Meteo {
+  font-size: 2em;
+  font-family: 'Raleway', sans-serif;
+  color: #104d72;
+  margin-bottom: 1em; }
+
+.texto-Meteo {
+  font-size: 1.3em;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.4em;
+  color: #6e6e66; }
+
+.logosMeteo {
+  width: 100%;
+  margin: auto;
+  display: flex; }
+
+.logosColMeteo {
+  width: 30%;
+  margin-top: 30px;
+  margin-left: 40px;
+  height: 30%;
+  -webkit-box-shadow: 10px 10px 15px -7px rgba(77, 77, 77, 0.47);
+  -moz-box-shadow: 10px 10px 15px -7px rgba(77, 77, 77, 0.47);
+  box-shadow: 10px 10px 15px -7px rgba(77, 77, 77, 0.47);
+  border-radius: 3%;
+  padding: 10px; }
+
+.logosColMeteo img {
+  max-width: 180px; }
+
+.logosColMeteo p {
+  font-size: 16px;
+  color: #104d72;
+  font-weight: bold;
+  margin-top: 20px; }
+
+.logosColMeteo p span {
+  font-size: 16px;
+  color: #6e6e6e; }
+
+.section-conatiner-nosotros {
+  width: 100%;
+  height: 630px;
+  display: flex; }
+
+.section-conatiner-nosotros .colImg {
+  width: 38%;
+  background-image: url("../imges/nosotros.jpg");
+  background-repeat: no-repeat;
+  height: 20%;
+  margin: 7em 0 0 0;
+  -webkit-box-shadow: 22px 21px 7px -15px #d9d9d9;
+  -moz-box-shadow: 22px 21px 7px -15px #d9d9d9;
+  box-shadow: 22px 21px 7px -15px #d9d9d9; }
+
+.section-conatiner-nosotros .colTexto {
+  width: 40%;
+  left: 35%;
+  top: 24%;
+  height: 30%;
+  background-color: #ffffff; }
+
+.section-conatiner-nosotros .containerTexto {
+  width: 90%;
+  margin: auto;
+  margin: 2% 0 0 25%; }
+
+.section-conatiner-nosotros .tituloHome {
+  font-size: 2em;
+  font-family: 'Raleway', sans-serif;
+  color: #104d72;
+  text-align: left;
+  margin-bottom: 1.5em; }
+
+.section-conatiner-nosotros .texto {
+  font-size: 1.3em;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.4em;
+  color: #6e6e6e; }
+
+.section-conatiner-nosotros .textoAbajo {
+  margin: 15% auto;
+  width: 60%;
+  height: 52%;
+  padding: 3% !important;
+  -webkit-box-shadow: 22px 21px 7px -15px #d9d9d9;
+  -moz-box-shadow: 22px 21px 7px -15px #d9d9d9;
+  box-shadow: 22px 21px 7px -15px #d9d9d9;
+  margin-left: 15%;
+  background-color: #ffffff;
+  border: 1px solid  #ececec; }
+
+.textoAbajo h2 {
+  font-size: 1.8em;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.4em;
+  color: #155075;
+  font-weight: bold; }
